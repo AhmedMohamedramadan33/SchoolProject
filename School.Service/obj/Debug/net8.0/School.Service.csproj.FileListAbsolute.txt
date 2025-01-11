@@ -1,0 +1,17 @@
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Service\bin\Debug\net8.0\School.Service.deps.json
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Service\bin\Debug\net8.0\School.Service.dll
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Service\bin\Debug\net8.0\School.Service.pdb
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Service\bin\Debug\net8.0\School.Data.dll
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Service\bin\Debug\net8.0\School.Infrastructure.dll
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Service\bin\Debug\net8.0\School.Data.pdb
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Service\bin\Debug\net8.0\School.Infrastructure.pdb
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Service\obj\Debug\net8.0\School.Service.csproj.AssemblyReference.cache
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Service\obj\Debug\net8.0\School.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Service\obj\Debug\net8.0\School.Service.AssemblyInfoInputs.cache
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Service\obj\Debug\net8.0\School.Service.AssemblyInfo.cs
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Service\obj\Debug\net8.0\School.Service.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Service\obj\Debug\net8.0\School.Service.csproj.CopyComplete
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Service\obj\Debug\net8.0\School.Service.dll
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Service\obj\Debug\net8.0\refint\School.Service.dll
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Service\obj\Debug\net8.0\School.Service.pdb
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Service\obj\Debug\net8.0\ref\School.Service.dll
