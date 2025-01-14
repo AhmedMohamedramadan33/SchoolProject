@@ -10,9 +10,10 @@ namespace School.Core.Feature.Students.Command.Validator
     {
         private readonly IStudentService _service;
         private readonly IStringLocalizer<SharedResources> _localizer;
-
-        public CreateStudentValidatot(IStudentService service, IStringLocalizer<SharedResources> localizer)
+        private readonly IDepartmentService _departmentService;
+        public CreateStudentValidatot(IStudentService service, IStringLocalizer<SharedResources> localizer, IDepartmentService departmentService)
         {
+            _departmentService = departmentService;
             _service = service;
             _localizer = localizer;
             RuleFor(x => x.Name).NotEmpty().WithMessage($" {_localizer[SharedResourcesKeys.Name]}:{_localizer[SharedResourcesKeys.NotEmpty]}").NotNull().MaximumLength(200);
@@ -20,6 +21,9 @@ namespace School.Core.Feature.Students.Command.Validator
             RuleFor(x => x.Address).NotEmpty().NotNull().MaximumLength(500);
             RuleFor(x => x.Phone).NotEmpty().NotNull().MaximumLength(500);
             RuleFor(x => x.DID).NotEmpty().WithMessage($" {_localizer[SharedResourcesKeys.DID]}:{_localizer[SharedResourcesKeys.NotEmpty]}").NotNull();
+            RuleFor(x => x.DID).MustAsync(async (key, CancellationToken) => await _departmentService.checkdepartment(key)).
+                When(x => x.DID != null).
+                WithMessage("This department Not Exist");
 
         }
 

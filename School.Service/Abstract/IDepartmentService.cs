@@ -5,5 +5,6 @@ namespace School.Service.Abstract
     public interface IDepartmentService
     {
         Task<Department> GetDepartmentById(int id);
+        Task<bool> checkdepartment(int did);
     }
 }

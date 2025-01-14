@@ -14,6 +14,11 @@ namespace School.Service.Implementation
             _department = department;
         }
 
+        public async Task<bool> checkdepartment(int did)
+        {
+            return await _department.GetTableNoTracking().AnyAsync(x => x.DID.Equals(did));
+        }
+
         public async Task<Department> GetDepartmentById(int id)
         {
             return await _department.GetTableNoTracking().Where(x => x.DID == id).Include(x => x.Instructor).
