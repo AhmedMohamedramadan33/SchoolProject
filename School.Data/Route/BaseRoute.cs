@@ -18,6 +18,13 @@
             public const string GetPaginatedStudent = prefix + "/paginatedstudent";
 
         }
+        public static class departmentrouting
+        {
+            public const string prefix = rule + "department";
+            public const string getbyid = prefix + "/id";
+
+
+        }
 
     }
 }

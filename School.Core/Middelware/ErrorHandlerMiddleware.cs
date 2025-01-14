@@ -1,7 +1,9 @@
 ﻿using FluentValidation;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Localization;
 using School.Core.Base;
+using School.Core.Resources;
 using System.Net;
 using System.Text.Json;
 
@@ -10,10 +12,12 @@ namespace School.Core.Middelware
     public class ErrorHandlerMiddleware
     {
         private readonly RequestDelegate _next;
+        private readonly IStringLocalizer<SharedResources> _localizer;
 
-        public ErrorHandlerMiddleware(RequestDelegate next)
+        public ErrorHandlerMiddleware(RequestDelegate next, IStringLocalizer<SharedResources> localizer)
         {
             _next = next;
+            _localizer = localizer;
         }
 
         public async Task Invoke(HttpContext context)
@@ -26,8 +30,7 @@ namespace School.Core.Middelware
             {
                 var response = context.Response;
                 response.ContentType = "application/json";
-                var responseModel = new Response<string>() { Succeeded = false, Message = "Validation Error" /*error?.Message*/ };
-                //var errors = context.ModelState.Where(x => x.Value.Errors.Count() > 0).SelectMany(x => x.Value.Errors).Select(x => x.ErrorMessage).ToList();
+                var responseModel = new Response<string>() { Succeeded = false };
 
 
                 //TODO:: cover all validation errors
@@ -36,7 +39,6 @@ namespace School.Core.Middelware
 
                     case UnauthorizedAccessException e:
                         // custom application error
-
                         responseModel.Message = error.Message;
                         responseModel.StatusCode = HttpStatusCode.Unauthorized;
                         response.StatusCode = (int)HttpStatusCode.Unauthorized;
@@ -44,9 +46,8 @@ namespace School.Core.Middelware
 
                     case ValidationException e:
                         // custom validation error
-                        //responseModel.Message = error.Message;
-                        var err = e.Errors.Select(x => x.ErrorMessage).ToList();
-                        responseModel.Errors = err;
+                        responseModel.Message = "Validation Error";
+                        responseModel.Errors = e.Errors.Select(x => $"{_localizer[x.ErrorMessage]}").ToList();
                         responseModel.StatusCode = HttpStatusCode.UnprocessableEntity;
                         response.StatusCode = (int)HttpStatusCode.UnprocessableEntity;
                         break;

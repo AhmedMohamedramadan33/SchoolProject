@@ -5,6 +5,7 @@ C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Data\obj\Debug\net8.0\Scho
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Data\obj\Debug\net8.0\School.Data.AssemblyInfoInputs.cache
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Data\obj\Debug\net8.0\School.Data.AssemblyInfo.cs
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Data\obj\Debug\net8.0\School.Data.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Data\obj\Debug\net8.0\School.Data.sourcelink.json
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Data\obj\Debug\net8.0\School.Data.dll
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Data\obj\Debug\net8.0\refint\School.Data.dll
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Data\obj\Debug\net8.0\School.Data.pdb

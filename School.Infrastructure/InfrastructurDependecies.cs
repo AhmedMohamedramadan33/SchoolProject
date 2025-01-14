@@ -1,5 +1,4 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using School.Data.Entities;
 using School.Infrastructure.Abstract;
 using School.Infrastructure.Repositories;
 
@@ -9,8 +8,9 @@ namespace School.Infrastructure
     {
         public static IServiceCollection RegisterInfrastructuredependencies(this IServiceCollection services)
         {
-            
-            services.AddScoped<IStudentRepository,StudentRepository>();
+
+            services.AddScoped<IStudentRepository, StudentRepository>();
+            services.AddScoped<IDepartmentRepository, DepartmentRepository>();
             return services;
         }
     }

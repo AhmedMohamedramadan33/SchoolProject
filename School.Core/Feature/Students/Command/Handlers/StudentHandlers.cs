@@ -37,7 +37,8 @@ namespace School.Core.Feature.Students.Command.Handlers
 
         public async Task<Response<string>> Handle(UpdateStudent request, CancellationToken cancellationToken)
         {
-            var mapped = mapper.Map<Student>(request);
+            var curstd = await service.GetStudentById(request.DID);
+            var mapped = mapper.Map(request, curstd);
             var res = await service.UpdateStudent(request.StudID, mapped);
             if (res == "notfound") return NotFound<string>();
             else if (res == "Exist") return UnprocessableEntity<string>();

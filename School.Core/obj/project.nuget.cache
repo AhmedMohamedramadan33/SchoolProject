@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HKNdScoKdNKTiRo2HfjAAd1unFkZmmnx7r80lLlNAUUnVoJ/0hT3iz/iJD4z6EjYLYEr8J3LKeWDJd8TesJU2w==",
+  "dgSpecHash": "zwHeVRNHJ8xF2JDSBx5A6ue4mSw+v14jCRJSZDOG4wzQybQh31Mh1AUPtHIEiiPAtjhE6dzPUmVH/paCZm2nEQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ahmed Mohamed\\source\\repos\\School.Api\\School.Core\\School.Core.csproj",
   "expectedPackageFiles": [
@@ -30,6 +30,7 @@
     "C:\\Users\\Ahmed Mohamed\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Ahmed Mohamed\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\Ahmed Mohamed\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Ahmed Mohamed\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\8.0.0\\microsoft.extensions.localization.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Ahmed Mohamed\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "C:\\Users\\Ahmed Mohamed\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Ahmed Mohamed\\.nuget\\packages\\microsoft.extensions.objectpool\\2.2.0\\microsoft.extensions.objectpool.2.2.0.nupkg.sha512",

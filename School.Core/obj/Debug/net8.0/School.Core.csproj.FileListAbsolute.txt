@@ -1,6 +1,8 @@
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Core\bin\Debug\net8.0\School.Core.deps.json
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Core\bin\Debug\net8.0\School.Core.dll
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Core\bin\Debug\net8.0\School.Core.pdb
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Core\bin\Debug\net8.0\Ar\School.Core.resources.dll
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Core\bin\Debug\net8.0\En\School.Core.resources.dll
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Core\bin\Debug\net8.0\School.Data.dll
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Core\bin\Debug\net8.0\School.Infrastructure.dll
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Core\bin\Debug\net8.0\School.Service.dll
@@ -8,10 +10,16 @@ C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Core\bin\Debug\net8.0\Scho
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Core\bin\Debug\net8.0\School.Service.pdb
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Core\bin\Debug\net8.0\School.Infrastructure.pdb
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Core\obj\Debug\net8.0\School.Core.csproj.AssemblyReference.cache
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Core\obj\Debug\net8.0\School.Core.Resources.SharedResources.Ar.resources
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Core\obj\Debug\net8.0\School.Core.Resources.SharedResources.En.resources
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Core\obj\Debug\net8.0\School.Core.csproj.GenerateResource.cache
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Core\obj\Debug\net8.0\School.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Core\obj\Debug\net8.0\School.Core.AssemblyInfoInputs.cache
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Core\obj\Debug\net8.0\School.Core.AssemblyInfo.cs
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Core\obj\Debug\net8.0\School.Core.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Core\obj\Debug\net8.0\School.Core.sourcelink.json
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Core\obj\Debug\net8.0\Ar\School.Core.resources.dll
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Core\obj\Debug\net8.0\En\School.Core.resources.dll
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Core\obj\Debug\net8.0\School.Core.csproj.CopyComplete
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Core\obj\Debug\net8.0\School.Core.dll
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Core\obj\Debug\net8.0\refint\School.Core.dll

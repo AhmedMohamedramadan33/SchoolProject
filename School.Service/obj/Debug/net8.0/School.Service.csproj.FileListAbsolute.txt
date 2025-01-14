@@ -10,6 +10,7 @@ C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Service\obj\Debug\net8.0\S
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Service\obj\Debug\net8.0\School.Service.AssemblyInfoInputs.cache
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Service\obj\Debug\net8.0\School.Service.AssemblyInfo.cs
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Service\obj\Debug\net8.0\School.Service.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Service\obj\Debug\net8.0\School.Service.sourcelink.json
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Service\obj\Debug\net8.0\School.Service.csproj.CopyComplete
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Service\obj\Debug\net8.0\School.Service.dll
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Service\obj\Debug\net8.0\refint\School.Service.dll

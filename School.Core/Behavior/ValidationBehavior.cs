@@ -22,12 +22,10 @@ public class ValidationBehavior<TRequest, TResponse> : IPipelineBehavior<TReques
             // تنفيذ جميع الـ Validators
             var validationResults = await Task.WhenAll(_validators.Select(v => v.ValidateAsync(context, cancellationToken)));
             var failures = validationResults.SelectMany(r => r.Errors).Where(f => f != null).ToList();
-            //var failures = validationResults.Where(x => x.Errors.Count() > 0).SelectMany(x => x.Errors).Select(x => x.ErrorMessage).ToList();
 
             // إذا كانت هناك أخطاء في التحقق من الصحة، نرمي استثناء
             if (failures.Any())
             {
-
                 throw new ValidationException(failures);
             }
         }

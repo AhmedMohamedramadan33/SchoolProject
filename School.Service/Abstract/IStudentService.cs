@@ -14,7 +14,7 @@ namespace School.Service.Abstract
         Task<string> Delete(int id);
         IQueryable<Student> Search(string? search);
         IQueryable<Student> orderby(IQueryable<Student> query, StudentSorting? stdsort, bool? isdescenfing = false);
-
+        IQueryable<Student> GetByDepartment(int id);
 
     }
 }

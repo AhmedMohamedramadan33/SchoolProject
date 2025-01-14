@@ -1,3 +1,11 @@
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Api\obj\Debug\net8.0\School.Api.csproj.AssemblyReference.cache
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Api\obj\Debug\net8.0\School.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Api\obj\Debug\net8.0\School.Api.AssemblyInfoInputs.cache
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Api\obj\Debug\net8.0\School.Api.AssemblyInfo.cs
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Api\obj\Debug\net8.0\School.Api.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Api\obj\Debug\net8.0\School.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Api\obj\Debug\net8.0\School.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Api\obj\Debug\net8.0\School.Api.sourcelink.json
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Api\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Api\bin\Debug\net8.0\appsettings.json
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Api\bin\Debug\net8.0\libman.json
@@ -129,13 +137,8 @@ C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Api\bin\Debug\net8.0\Schoo
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Api\bin\Debug\net8.0\School.Data.pdb
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Api\bin\Debug\net8.0\School.Infrastructure.pdb
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Api\bin\Debug\net8.0\School.Service.pdb
-C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Api\obj\Debug\net8.0\School.Api.csproj.AssemblyReference.cache
-C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Api\obj\Debug\net8.0\School.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Api\obj\Debug\net8.0\School.Api.AssemblyInfoInputs.cache
-C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Api\obj\Debug\net8.0\School.Api.AssemblyInfo.cs
-C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Api\obj\Debug\net8.0\School.Api.csproj.CoreCompileInputs.cache
-C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Api\obj\Debug\net8.0\School.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Api\obj\Debug\net8.0\School.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Api\bin\Debug\net8.0\Ar\School.Core.resources.dll
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Api\bin\Debug\net8.0\En\School.Core.resources.dll
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Api\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Api\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Api\obj\Debug\net8.0\staticwebassets\msbuild.School.Api.Microsoft.AspNetCore.StaticWebAssets.props

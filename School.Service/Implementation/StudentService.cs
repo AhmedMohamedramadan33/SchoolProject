@@ -35,6 +35,11 @@ namespace School.Service.Services
 
         }
 
+        public IQueryable<Student> GetByDepartment(int id)
+        {
+            return _student.GetTableNoTracking().Where(x => x.DID == id).AsQueryable();
+        }
+
         public IQueryable<Student> GetStudent()
         {
             return _student.GetTableNoTracking().Include(x => x.Department).AsQueryable();
