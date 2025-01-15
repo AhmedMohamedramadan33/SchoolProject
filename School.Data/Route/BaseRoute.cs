@@ -22,6 +22,9 @@
         {
             public const string prefix = rule + "department";
             public const string getbyid = prefix + "/id";
+            public const string getdepartmentwithstdcount = prefix + "/getdepartmentwithstdcount";
+            public const string getspecificdepartmentwithstdcount = prefix + "/getspecificdepartmentwithstdcount/{id}";
+
 
 
         }

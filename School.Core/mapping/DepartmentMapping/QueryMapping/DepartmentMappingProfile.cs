@@ -1,6 +1,8 @@
-﻿using School.Core.Feature.Departments.Query.Results;
+﻿using School.Core.Feature.Departments.Query.Models;
+using School.Core.Feature.Departments.Query.Results;
 using School.Data.Entities;
 using School.Data.Localization;
+using School.Data.Procedures;
 
 namespace School.Core.mapping.DepartmentMapping
 {
@@ -23,8 +25,11 @@ namespace School.Core.mapping.DepartmentMapping
                  ForMember(desc => desc.ID, x => x.MapFrom(src => src.InsId)).
                  ForMember(desc => desc.Name, x => x.MapFrom(src => LocalizableEntity.localize(src.ENameAr, src.ENameEn)));
 
+            CreateMap<GetDepartmentwithstudentcount, GetDepartmentWithstudentCountResult>();
 
+            CreateMap<GetDepartmentWithStdCountProc, GetDepartmentWithProcResult>();
 
+            CreateMap<GetDepartmentwithproc, GetDepartmentWithStdCountProcparam>();
 
 
 

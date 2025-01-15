@@ -12,8 +12,7 @@ namespace School.Api.Controllers
         [HttpGet(BaseRoute.studentrouting.getlist)]
         public async Task<IActionResult> get()
         {
-            var res = await _mediator.Send(new GetStudentList());
-            return Ok(res);
+            return NewResult(await _mediator.Send(new GetStudentList()));
         }
         [HttpGet(BaseRoute.studentrouting.getbyid)]
         public async Task<IActionResult> Get(int id)

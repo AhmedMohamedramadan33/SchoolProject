@@ -12,6 +12,15 @@ namespace School.Api.Controllers
         {
             return NewResult(await _mediator.Send(request));
         }
-
+        [HttpGet(BaseRoute.departmentrouting.getdepartmentwithstdcount)]
+        public async Task<IActionResult> Getdepartmentwithcount()
+        {
+            return NewResult(await _mediator.Send(new GetDepartmentWithCountQuery()));
+        }
+        [HttpGet(BaseRoute.departmentrouting.getspecificdepartmentwithstdcount)]
+        public async Task<IActionResult> GetSpecficdepartmentwithcount(int id)
+        {
+            return NewResult(await _mediator.Send(new GetDepartmentwithproc() { did = id }));
+        }
     }
 }
