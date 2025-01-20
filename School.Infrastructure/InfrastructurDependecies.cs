@@ -13,6 +13,7 @@ namespace School.Infrastructure
             services.AddScoped<IDepartmentRepository, DepartmentRepository>();
             services.AddScoped<IDepartmentWithCountView, DepartmentWithCountView>();
             services.AddScoped<IDepartmentProcedure, Departmentprocedurerepo>();
+
             return services;
         }
     }

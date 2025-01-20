@@ -13,6 +13,8 @@ namespace School.Service
             services.AddScoped<IDepartmentService, DepartmentService>();
             services.AddScoped<IDepartmentWithCountService, DepartmentWithCountService>();
             services.AddScoped<IDepartmentProc, DepartmentProc>();
+            services.AddScoped<IAuthService, AuthService>();
+
             return services;
         }
     }

@@ -10,3 +10,4 @@ C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Data\obj\Debug\net8.0\Scho
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Data\obj\Debug\net8.0\refint\School.Data.dll
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Data\obj\Debug\net8.0\School.Data.pdb
 C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Data\obj\Debug\net8.0\ref\School.Data.dll
+C:\Users\Ahmed Mohamed\source\repos\School.Api\School.Data\obj\Debug\net8.0\School.Data.csproj.AssemblyReference.cache

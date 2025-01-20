@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
+using Microsoft.Extensions.Logging;
 using School.Core.Base;
 using School.Core.Resources;
 using System.Net;
@@ -13,11 +14,13 @@ namespace School.Core.Middelware
     {
         private readonly RequestDelegate _next;
         private readonly IStringLocalizer<SharedResources> _localizer;
+        private readonly ILogger<ErrorHandlerMiddleware> _logger;
 
-        public ErrorHandlerMiddleware(RequestDelegate next, IStringLocalizer<SharedResources> localizer)
+        public ErrorHandlerMiddleware(RequestDelegate next, IStringLocalizer<SharedResources> localizer, ILogger<ErrorHandlerMiddleware> logger)
         {
             _next = next;
             _localizer = localizer;
+            _logger = logger;
         }
 
         public async Task Invoke(HttpContext context)
@@ -46,6 +49,7 @@ namespace School.Core.Middelware
 
                     case ValidationException e:
                         // custom validation error
+                        _logger.LogError(error, error.Message);
                         responseModel.Message = "Validation Error";
                         responseModel.Errors = e.Errors.Select(x => $"{_localizer[x.ErrorMessage]}").ToList();
                         responseModel.StatusCode = HttpStatusCode.UnprocessableEntity;

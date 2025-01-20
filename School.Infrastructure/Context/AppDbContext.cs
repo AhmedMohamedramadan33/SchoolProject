@@ -1,10 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using School.Data.Entities;
+using School.Data.Entities.Identity;
 using System.Reflection;
 
 namespace School.Infrastructure.Data
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
@@ -31,6 +33,7 @@ namespace School.Infrastructure.Data
         public virtual DbSet<Department> Departments { get; set; }
         public virtual DbSet<DepartmetSubject> DepartmetSubjects { get; set; }
         public virtual DbSet<Subject> Subjects { get; set; }
+        public virtual DbSet<AppUser> AppUsers { get; set; }
         public virtual DbSet<GetDepartmentwithstudentcount> GetDepartmentsWithstudentcount { get; set; }
 
     }

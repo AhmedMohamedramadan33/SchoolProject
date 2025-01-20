@@ -1,12 +1,15 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using School.Core;
 using School.Core.Middelware;
+using School.Data.Entities.Identity;
 using School.Infrastructure;
 using School.Infrastructure.Data;
 using School.Service;
+using Serilog;
 using System.Globalization;
 
 
@@ -22,7 +25,9 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
 {
     opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+builder.Services.AddIdentity<AppUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 builder.Services.RegisterCoreDependecies().RegisterInfrastructuredependencies().RegisterServiceDependencies();
+builder.Host.UseSerilog((context, configuration) => configuration.ReadFrom.Configuration(context.Configuration));
 
 builder.Services.Configure<ApiBehaviorOptions>(opt =>
 {
@@ -63,6 +68,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 app.UseMiddleware<ErrorHandlerMiddleware>();
+app.UseSerilogRequestLogging();
 var options = app.Services.GetService<IOptions<RequestLocalizationOptions>>();
 app.UseRequestLocalization(options.Value);
 app.UseHttpsRedirection();

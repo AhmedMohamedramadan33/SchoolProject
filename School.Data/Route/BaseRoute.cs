@@ -24,9 +24,16 @@
             public const string getbyid = prefix + "/id";
             public const string getdepartmentwithstdcount = prefix + "/getdepartmentwithstdcount";
             public const string getspecificdepartmentwithstdcount = prefix + "/getspecificdepartmentwithstdcount/{id}";
-
-
-
+        }
+        public static class AuthRouting
+        {
+            public const string prefix = rule + "Auth";
+            public const string Register = prefix + "/Register";
+            public const string getbyid = prefix + id;
+            public const string getlist = prefix + "/getall";
+            public const string Update = prefix + "/Update";
+            public const string Delete = prefix + "/delete" + id;
+            public const string Changepassword = prefix + "/changepassword";
         }
 
     }
